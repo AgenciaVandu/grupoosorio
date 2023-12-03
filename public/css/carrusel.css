@@ -1,0 +1,49 @@
+
+@keyframes slide {
+    from {
+    transform: translateX(0);
+    }
+    to {
+    transform: translateX(-100%);
+    }
+}
+.marcas {
+    height: 140px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+}
+.marcas::before, 
+.marcas::after {
+    position: absolute;
+    top: 0;
+
+    width: 100px;
+    height: 100%;
+    content: "";
+    z-index: 1;
+}
+.marcas::before {
+    left: 0;
+    background: linear-gradient(90deg, white, rgba(255, 255, 255, 0));
+}
+.marcas::after {
+    right: 0;
+    background: linear-gradient(-90deg, white, rgba(255, 255, 255, 0));
+}
+.marcas:hover 
+.carrusel {
+    animation-play-state: paused;
+}
+.carrusel {
+    display: inline-block;
+    animation: 35s slide infinite linear;
+}
+.logo {
+    flex: 1 0 auto;
+    margin: 0 20px;
+    width: 130px;
+    height: 80px;
+}

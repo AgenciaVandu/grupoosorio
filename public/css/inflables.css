@@ -1,0 +1,46 @@
+.header__inflables {
+    min-height: 600px;
+    background-image: url(/img/bg-inflables2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-link {
+    color: #fff !important;
+    padding-right: 1.5em !important;
+}
+.nav-link:hover {
+    color: #FFEB00 !important;
+}
+
+.header__inflables .titular {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+.inflables-img {
+    text-align: center;   
+}
+
+.productos {
+    background-image: url(/img/Vector6.svg);
+    background-repeat: no-repeat;
+    background-position: 50px left;
+}
+.titular {
+    text-align: center;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+}
+@media (max-width: 991px) {
+    .izquierda {
+        order:2;
+    }
+    .derecha {
+        order: 0;
+    }
+}
+

@@ -1,0 +1,67 @@
+.nav-link {
+    color: #fff !important;
+}
+.nav-link:hover {
+    color: #F67D0F !important;
+}
+.header__obsa {
+    min-height: 600px;
+    background-image: url(/img/vectorobsa.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.obsa-titular {
+    min-height: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} @media (max-width:550px) {
+    .obsa-titular {
+        min-height: 650px;
+    }
+}
+.obsa-titular h1 {
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+.obsa-titular h1 span {
+    color: #F67D0F;
+}
+.obsa-titular .espacio {
+    max-width: 700px;
+}
+.productos {
+    min-height: 30px;
+    background-image: url(/img/Vector-27-1.svg);
+    background-position: center 330px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.globo {
+    z-index: 1;
+    position: absolute;
+    top: -70px;
+    left: -90px;
+}
+.image {
+    z-index: -1;
+    position: relative;
+}
+
+.txt h3, .txt p {
+    color: #fff;
+}
+@media (max-width: 991px) {
+    .izquierda {
+        order:2;
+    }
+    .derecha {
+        order: 0;
+    }
+}

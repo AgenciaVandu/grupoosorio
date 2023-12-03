@@ -1,0 +1,25 @@
+.contacto {
+    background-image: url(/img/Vector1.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    min-height: 600px;
+} @media (max-width:991px) {
+    .contacto {
+        background-size: cover;
+    }
+}
+.contacto .info {
+    padding-top: 3em;
+} @media (max-width:991px) {
+    .contacto .info {
+        padding-top: 4em;
+        padding-bottom: 2em;
+    }
+    .contacto .info a {
+        color: #000;
+        font-weight: 800;
+    }
+}
+
+
+

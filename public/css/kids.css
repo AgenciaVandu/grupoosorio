@@ -1,0 +1,98 @@
+.nav-link {
+    color: #fff !important;
+}
+.nav-link:hover {
+    color: #63c1de !important;
+}
+
+.header__inflables {
+    min-height: 550px;
+    background-image: url(/img/vector-kids.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+@media (max-width: 991px) {
+    .header__inflables .titulo {
+        padding-top: 3em;
+        padding-bottom: 1em;
+        text-align: center;
+    }
+}
+.header__inflables .titulo-res {
+    display: none;
+}
+@media (max-width: 767px) {
+    .header__inflables .titulo {
+        display: none;
+    }
+    .header__inflables .titulo-res {
+        padding-top: 2em;
+        padding-bottom: 1em;
+        display: block;
+        text-align: center;
+    }
+}
+.header__inflables .espacio {
+    max-width: 676px;
+    height: auto;
+}
+
+.header__inflables h1 {
+    color: #fff;
+    font-size: 3em;
+}
+
+.inflables-img {
+    text-align: center;
+}
+.titular {
+    text-align: center;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+}
+.productos {
+    min-height: 30px;
+    background-image: url(/img/Vector-27-1.svg);
+    background-position: center 320px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.globo {
+    z-index: 1;
+    position: absolute;
+    top: -70px;
+    left: -90px;
+}
+.image {
+    z-index: -1;
+    position: relative;
+}
+
+.txt h3,
+.txt p {
+    color: #fff;
+}
+@media (max-width: 991px) {
+    .izquierda {
+        order:2;
+    }
+    .derecha {
+        order: 0;
+    }
+    .productos {
+        background-image: url(/img/fondo-kids.svg);
+        background-position: center 540px;
+    }
+    .izquierda h3, .izquierda p {
+        color: #000;
+    }
+
+}

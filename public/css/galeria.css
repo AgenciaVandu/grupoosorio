@@ -1,0 +1,52 @@
+
+.otros-productos{
+    margin-bottom: 4em;
+    position: relative;
+}
+.galeria {
+    margin-left: .9rem;
+    margin-right: .8rem;
+    padding-top: 3rem;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    gap: 16px;
+} @media (max-width:500px) {
+    .galeria {
+        margin-left: 0;
+        margin: 0;
+    }
+}
+.galeria .imagen {
+    flex: 1 0 auto;
+    margin: 0 20px;
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+.btn-left {
+    position: absolute;
+    top: 55%;
+    left: 5px;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    border: none;
+    background-color: #00ABD3;
+    font-weight: bold;
+    color: #fff;
+    font-size: 18px;
+}
+.btn-right {
+    position: absolute;
+    top: 55%;
+    right: 5px;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    border: none;
+    background-color: #00ABD3;
+    font-weight: bold;
+    color: #fff;
+    font-size: 18px;
+}
