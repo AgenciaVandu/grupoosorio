@@ -2,5 +2,4 @@
   deployment:
     task:
       - export DEPLOYPATH=/home/grupowww/public_html/
-      - /bin/rsync -av public/ $DEPLOYPATH
-      
+      - /bin/cp -R img $DEPLOYPATH
