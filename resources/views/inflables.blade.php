@@ -20,9 +20,16 @@
         </div>
         <section class="inflables-img">
             <div class="container-fluid">
-                <picture>
+               <div class="d-none d-sm-none d-md-none d-lg-block">
+               <picture>
                     <img src="{{asset('./img/webp/inflables-osorio.webp')}}" class="img-fluid" alt="Inflables interactivos">
                 </picture>
+               </div>
+               <div class="d-block d-sm-block d-md-block d-lg-none">
+               <picture>
+                    <img src="{{asset('./img/webp/fotos/inflable.webp')}}" class="img-fluid" alt="Inflables interactivos">
+                </picture>
+               </div>
             </div>
         </section>
     </header>
