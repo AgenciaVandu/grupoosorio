@@ -65,3 +65,13 @@
         order: 0;
     }
 }
+
+.caracteristicas h4 span {
+    font-size: .6em;
+    color: #F67D0F;
+}
+.caracteristicas .pos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

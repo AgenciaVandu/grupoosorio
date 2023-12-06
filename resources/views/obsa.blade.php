@@ -15,7 +15,7 @@
                 </picture>
                 <h1><span>Fabricantes</span> de <br> artículos promocionales</h1>
                 <div class="espacio">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis reprehenderit tenetur, neque quibusdam maiores quas voluptatum obcaecati nihil amet fugit consectetur dolore id porro nulla laborum, placeat minus iste quo?</p>
+                    <p>Expertos en la creación de productos promocionales, destacando por la calidad y originalidad de nuestros productos. Ofrecemos soluciones personalizadas que potencian su marca, capturando la atención de su audiencia y generando impacto duradero en eventos, campañas y promociones.</p>
                 </div>
             </div>
 
@@ -47,14 +47,14 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 m-auto pt-3">
-                    <h3>Fabricamos inflables <br class="d-none d-sm-none d-md-block d-lg-block"> de la más alta calidad</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti labore aliquam, iure adipisci tempora possimus! Quos quae autem quas facere eos id ab, facilis porro iure dolores laudantium minus atque!</p>
+                    <h3>Fabricamos botargas y <br class="d-none d-sm-none d-md-block d-lg-block">backs publicitarios de primera calidad</h3>
+                    <p>Nos especializamos en producir botargas y fondos publicitarios de excelencia. Destacamos por nuestra creatividad y durabilidad, brindando soluciones visuales impresionantes que potencian la presencia de su marca en eventos y promociones.</p>
                 </div>
             </div>
             <div class="row pt-5">
                 <div class=" izquierda col-lg-6 col-md-12 col-sm-12 m-auto pt-3 ">
-                    <h3>Fabricamos inflables<br class="d-none d-sm-none d-md-block d-lg-block"> de la más alta calidad</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti labore aliquam, iure adipisci tempora possimus! Quos quae autem quas facere eos id ab, facilis porro iure dolores laudantium minus atque!</p>
+                    <h3>Somos fabricantes de Banderolas,<br class="d-none d-sm-none d-md-block d-lg-block">Banderines & Pendones publicitarios</h3>
+                    <p>Somos líderes en la fabricación de vibrantes artículos pop que impulsan marcas. Desde coloridos carteles hasta llamativos banners, creamos productos únicos como Banderolas, banderines, gorras personalizadas, etc. Nuestra creatividad y calidad destacan, asegurando una presencia impactante y duradera en eventos y campañas publicitarias.</p>
                 </div>
                 <div class=" derecha col-lg-6 col-md-12 col-sm-12 text-center pt-3 ">
                 <div id="carousel2" class="carousel slide" data-ride="carousel">
@@ -82,16 +82,15 @@
 
     <section class="caracteristicas text-center pb-5">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <h4>Lorem, ipsum dolor.</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim id placeat ipsa tempore quas fuga. Consectetur eveniet ratione voluptatem pariatur.</p>
+            <div class="row pos">
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <h4><span>Incluído</span><br>Bolsa de guardado.</h4>
+                    <p>Comprometidos con la durabilidad del nuestros productos, incluímos una bolsa especial para aumentar su vida útil.</p>
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <h4>Lorem, ipsum dolor.</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim id placeat ipsa tempore quas fuga. Consectetur eveniet ratione voluptatem pariatur.</p>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <h4><span>Incluído</span><br>Garantía de 2 años.</h4>
+                    <p>Todos nuestros inflables incluyen hasta 2 años de garantía por defectos de fabrica a partir de la entrega del mismo.</p>
                 </div>
-
             </div>
         </div>
     </section>

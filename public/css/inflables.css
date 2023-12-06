@@ -43,3 +43,7 @@
     }
 }
 
+.caracteristicas h4 span {
+    font-size: .6em;
+    color: red;
+}
