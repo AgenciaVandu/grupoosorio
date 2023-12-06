@@ -32,7 +32,7 @@
                </div>
             </div>
         </section>
-    </header>
+    </header> 
 
     <section class="titular">
         <div class="container text-center">

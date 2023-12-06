@@ -17,6 +17,7 @@ h1, h2, h3, h4, span {
     font-family: 'Poppins-Bold';
 }
 
+
 .bg-osorio {
     background-color: transparent;
 }
@@ -27,7 +28,10 @@ nav.dark {
 nav.dark .nav-link {
     color: #fff !important;
 }
-
+.nav-link {
+    color: #fff !important;
+    padding-right: 1.5em !important;
+}
 
 
 ul .nav-item {
