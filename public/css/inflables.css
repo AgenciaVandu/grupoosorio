@@ -12,6 +12,11 @@
 .nav-link:hover {
     color: #FFEB00 !important;
 }
+nav.dark {
+    background-color: #E30613 !important;
+    padding-bottom: 0.4em;
+    transition: 200ms ease-in;
+}
 
 .header__inflables .titular {
     display: flex;

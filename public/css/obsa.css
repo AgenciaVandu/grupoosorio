@@ -4,6 +4,12 @@
 .nav-link:hover {
     color: #F67D0F !important;
 }
+nav.dark {
+    background-color: #F67D0F !important;
+    padding-bottom: 0.4em;
+    transition: 200ms ease-in;
+}
+
 .header__obsa {
     min-height: 600px;
     background-image: url(/img/vectorobsa.svg);

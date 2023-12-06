@@ -71,23 +71,23 @@
         </div>
     </section>
 
-    <section class="caracteristicas">
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <h4>Lorem, ipsum dolor.</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim id placeat ipsa tempore quas fuga. Consectetur eveniet ratione voluptatem pariatur.</p>
+    <section class="caracteristicas text-center pb-5">
+        <div class="container">
+            <div class="row pos">
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <h4><span>Incluído</span><br>Bolsa de guardado.</h4>
+                    <p>Comprometidos con la durabilidad del nuestros productos, incluímos una bolsa especial para aumentar su vida útil.</p>
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <h4>Lorem, ipsum dolor.</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim id placeat ipsa tempore quas fuga. Consectetur eveniet ratione voluptatem pariatur.</p>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <h4><span>Incluído</span><br>Garantía de 2 años.</h4>
+                    <p>Todos nuestros inflables incluyen hasta 2 años de garantía por defectos de fabrica a partir de la entrega del mismo.</p>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <h4><span>Incluído</span><br>Garantía de 2 años.</h4>
+                    <p>Todos nuestros inflables incluyen hasta 2 años de garantía por defectos de fabrica a partir de la entrega del mismo.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    
-
-    
-    
 </x-layouts.guest>

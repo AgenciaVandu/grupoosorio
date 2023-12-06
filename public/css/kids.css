@@ -4,6 +4,11 @@
 .nav-link:hover {
     color: #63c1de !important;
 }
+nav.dark {
+    background-color: #5B2DCB !important;
+    padding-bottom: 0.4em;
+    transition: 200ms ease-in;
+}
 
 .header__inflables {
     min-height: 550px;
@@ -82,7 +87,7 @@
 }
 @media (max-width: 991px) {
     .izquierda {
-        order:2;
+        order: 2;
     }
     .derecha {
         order: 0;
@@ -91,8 +96,18 @@
         background-image: url(/img/fondo-kids.svg);
         background-position: center 540px;
     }
-    .izquierda h3, .izquierda p {
+    .izquierda h3,
+    .izquierda p {
         color: #000;
     }
+}
 
+.caracteristicas h4 span {
+    font-size: 0.6em;
+    color: #5B2DCB;
+}
+.caracteristicas .pos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
