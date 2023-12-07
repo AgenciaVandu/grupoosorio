@@ -10,6 +10,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> {{ $title ?? ''}} - Grupo osorio</title>
     <meta name="description" content="Con más de 30 años de experiencia, Grupo Osorio se distingue como un referente en el sureste en la fabricación de inflables, inflables publicitarios y artículos POP. Nuestra dedicación a la excelencia se refleja en cada producto, respaldado por la innovación, la calidad y el compromiso. Confíe en nosotros para soluciones visuales impactantes que impulsen su marca al siguiente nivel.">
+    <meta name="keywords" content="Fabrica de juegos inflables, fabricante de inflables, fabricante de brincolines, fabricante de banderolas, banderolas, renta de inflables, renta de brincolines en mérida, renta de brincolines a domicilio, fabricante de banderines publicitarios, impresión de lonas."/>
+    <meta name="author" content="Agencia Vandu" />
 
 </head>
 
