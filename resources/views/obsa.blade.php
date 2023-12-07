@@ -1,4 +1,4 @@
-<x-layouts.guest title="Inflables Osorio">
+<x-layouts.guest title="Fabricantes de banderolas y artículos promocionales en Mérida">
     @push('css')
     <link rel="stylesheet" href="{{asset('/css/obsa.css')}}">
     <link rel="stylesheet" href="{{asset ('/css/carrusel.css')}}">

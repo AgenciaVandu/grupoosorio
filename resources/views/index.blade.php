@@ -1,4 +1,4 @@
-<x-layouts.guest title='Grupo Osorio - Los mejores productos para puntos de venta y eventos'>
+<x-layouts.guest title='Los mejores productos para puntos de venta y eventos'>
     @push('css')
     <link rel="stylesheet" href="{{ asset('/css/style.css' )}}">
     <link rel="stylesheet" href="{{asset ('/css/carrusel.css')}}">

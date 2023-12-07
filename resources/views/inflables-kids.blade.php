@@ -1,4 +1,4 @@
-<x-layouts.guest title="Inflables Osorio">
+<x-layouts.guest title="Renta de juegos inflables por horas en Mérida">
     @push('css')
     <link rel="stylesheet" href="{{ asset('/css/kids.css' )}}">
     @endpush

@@ -1,4 +1,4 @@
-<x-layouts.guest title="Inflables Osorio">
+<x-layouts.guest title="Fabrica de inflables publicitarios y brincolines">
     @push('css')
     <link rel="stylesheet" href="{{ asset('/css/inflables.css' )}}">
     <link rel="stylesheet" href="{{ asset('/css/carrusel.css' )}}">
