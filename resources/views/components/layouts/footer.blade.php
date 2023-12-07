@@ -7,24 +7,24 @@
         <div class="col">
             <h4>Mapa del sitio</h4>
             <li class="pb-2">
-                <a href="">Inicio</a>
+                <a href="{{ route('inicio') }}">Inicio</a>
             </li>
             <li class="pb-2">
-                <a href="">Inflables Osorio</a>
+                <a href="{{ route ('inflables-osorio') }}">Inflables Osorio</a>
             </li>
             <li class="pb-2">
-                <a href="">OBSA</a>
+                <a href="{{ route ('obsa')}}">OBSA</a>
             </li>
             <li class="pb-2">
-                <a href="">Inflables Osorio Kids</a>
+                <a href="{{ route ('inflables-osorio-kids')}}">Inflables Osorio Kids</a>
             </li>
             <li class="pb-2">
-                <a href="">Contacto</a>
+                <a href="{ route ('contacto')}}">Contacto</a>
             </li>
         </div>
         <div class="col-lg-4 col-md-12 col-sm-12">
             <h4>Alianzas</h4>
-            <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laborum iure debitis similique itaque voluptatibus doloremque accusamus maiores esse hic, voluptas repellat culpa illo quasi, tenetur asperiores ad! Suscipit, accusantium.</p>
+            <p class="pt-3">Nos aliamos con las cámaras de empresarios más importantes del sureste:</p>
         </div>
     </div>
 
