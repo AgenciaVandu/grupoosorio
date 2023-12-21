@@ -7,15 +7,15 @@
                 <div class="linea">
                     <hr>
                 </div>
-                <a href="tel:9993893710">(999) 000 0000</a>
+                <a href="tel:9999235723">(999) 923 5723</a>
                 <div class="linea">
                     <hr>
                 </div>
-                <a href="tel:9993893710">
+                <a href="wa.me/529999235723">
                     Contáctanos por whatsapp
                 </a>
                 <h3 class="pt-2">Visítanos</h3>
-                <a href="tel:9993893710">
+                <a href="https://www.google.com/maps?ll=20.949296,-89.62392&z=18&t=m&hl=es-419&gl=MX&mapclient=embed&cid=4088218864416540737">
                     Calle falsa 658, entre 89b y 91, <br> Centro, 97000 Mérida, Yuc.
                 </a>
             </div>
