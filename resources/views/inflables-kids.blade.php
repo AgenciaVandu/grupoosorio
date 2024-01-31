@@ -14,7 +14,7 @@
                             <img src="{{asset ('./img/kids.svg')}}" height="auto" width="150" alt="Logo Inflables Osorio kids">
                         </picture>
                         <div class="espacio">
-                            <h1>Renta de<br> inflables interactivos <br>para niños & + 18</h1>
+                            <h1>Renta de<br> inflables interactivos <br>para niños & grandes</h1>
                         </div>
                     </div>
                     <div class="titulo-res">

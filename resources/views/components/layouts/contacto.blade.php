@@ -15,7 +15,7 @@
                     Contáctanos por whatsapp
                 </a>
                 <h3 class="pt-2">Visítanos</h3>
-                <a href="https://www.google.com/maps?ll=20.949296,-89.62392&z=18&t=m&hl=es-419&gl=MX&mapclient=embed&cid=4088218864416540737">
+                <a href="https://www.google.com/maps?ll=20.949296,-89.62392&z=18&t=m&hl=es-419&gl=MX&mapclient=embed&cid=4088218864416540737b ">
                     Calle falsa 658, entre 89b y 91, <br> Centro, 97000 Mérida, Yuc.
                 </a>
             </div>
