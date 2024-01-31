@@ -8,7 +8,7 @@
     <header class="header__inflables">
         <div class="container">
             <div class="pt-5 row">
-                <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="col-lg-7 col-md-12 col-sm-12">
                     <div class="titulo">
                         <picture>
                             <img src="{{asset ('./img/kids.svg')}}" height="auto" width="150" alt="Logo Inflables Osorio kids">
@@ -17,19 +17,10 @@
                             <h1>Renta de<br> inflables interactivos <br>para niños & grandes</h1>
                         </div>
                     </div>
-                    <div class="titulo-res">
-                        <picture>
-                            <img src="{{asset ('./img/kids.svg')}}" height="auto" width="150" alt="Logo Inflables Osorio kids">
-                        </picture>
-                        <div class="espacio">
-                            <h1>Renta de<br> inflables interactivos <br>para niños & + 18</h1>
-                        </div>
-                    </div>
+
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <picture>
-                        <img src="{{asset('./img/webp/acuainflable.webp')}}" class="acuatico" alt="Producto inflables osorio">
-                    </picture>
+                <div class="col-lg-5 col-md-12 col-sm-12 header__flex">
+                    <img src="{{asset('/img/imagenes2/juegos.png')}}" class="juegos" alt="tobogan olas">
                 </div>
             </div>
         </div>
@@ -51,7 +42,25 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 text-center ">
                     <picture>
                         <img src="{{asset('./img/balloon.png')}}" class="img-fluid globo" alt="Globo">
-                        <img src="{{asset('./img/webp/fotos/8.webp')}}" class="img-fluid image" alt="Producto inflables osorio">
+                        <div id="carousel1" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="{{asset('/img/imagenes2/acuatico1.jpg')}}" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="{{asset('/img/imagenes2/obstaculos.jpg')}}" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-target="#carousel1" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-target="#carousel1" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </button>
+                        </div>
+                        <!-- <img src="{{asset('./img/webp/fotos/8.webp')}}" class="img-fluid image" alt="Producto inflables osorio"> -->
                     </picture>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 m-auto pt-3">
@@ -60,14 +69,30 @@
                 </div>
             </div>
             <div class="row pt-5">
-                <div class="izquierda col-lg-6 col-md-12 col-sm-12 m-auto txt pt-3">
-                    <h3>Rentamos inflables de aventura<br class="d-none d-sm-none d-md-block d-lg-block"> & juegos de mesa</h3>
+                <div class="izquierda col-lg-6 col-md-12 col-sm-12 m-auto txt pt-3 font-co">
+                    <h3 >Rentamos inflables de aventura<br class="d-none d-sm-none d-md-block d-lg-block"> & juegos de mesa</h3>
                     <p>Sumérgete en la diversión con nuestro servicio de alquiler de inflables de aventura y juegos de mesa, como futbolitos y mesas de hockey. Añade emoción a tu evento con opciones que satisfacen todos los gustos. ¡Crea momentos inolvidables con la mezcla perfecta de adrenalina y competencia!</p>
                 </div>
                 <div class="derecha col-lg-6 col-md-12 col-sm-12 text-center pt-3">
-                    <picture>
-                        <img src="{{asset('./img/webp/fotos/17.webp')}}" class="img-fluid" alt="Producto inflables osorio">
-                    </picture>
+                <div id="carousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="{{asset('/img/imagenes2/castillo.jpg')}}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{asset('/img/imagenes2/17.jpg')}}" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-target="#carousel" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-target="#carousel" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </button>
+                    </div>
+                   
                 </div>
             </div>
         </div>

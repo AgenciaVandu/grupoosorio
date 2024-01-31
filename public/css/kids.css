@@ -29,23 +29,59 @@ nav.dark {
         text-align: center;
     }
 }
-.header__inflables .titulo-res {
-    display: none;
-}
-@media (max-width: 767px) {
-    .header__inflables .titulo {
-        display: none;
-    }
-    .header__inflables .titulo-res {
-        padding-top: 2em;
-        padding-bottom: 1em;
-        display: block;
-        text-align: center;
-    }
-}
+
 .header__inflables .espacio {
-    max-width: 676px;
+    max-width: 900px;
     height: auto;
+}
+.header__flex  {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 400px;
+}
+.header__flex .juegos {
+    width: auto;
+    height: 400px;
+
+    position: absolute;
+    bottom: 15px;
+    left: 0px;
+    transition: .5s;
+} @media (max-width: 991px) {
+    .header__flex .juegos {
+        position: absolute;
+        bottom: 15px;
+        left: 60px;
+        transition: .5s;
+    } 
+}@media (max-width: 767px) {
+    .header__flex .juegos {
+        position: absolute;
+        bottom: 15px;
+        left: 10px;
+        transition: .5s;
+    } 
+}@media (max-width: 464px) {
+    .header__flex .juegos {
+        width: auto;
+        height: 300px;
+
+        position: absolute;
+        top: 15px;
+        left: 20px;
+        transition: .5s;
+    } 
+}@media (max-width: 390px) {
+    .header__flex .juegos {
+        width: auto;
+        height: 260px;
+
+        position: absolute;
+        top: 15px;
+        left: 10px;
+        transition: .5s;
+    } 
 }
 
 .header__inflables h1 {
@@ -65,11 +101,29 @@ nav.dark {
 .productos {
     min-height: 30px;
     background-image: url(/img/Vector-27-1.svg);
-    background-position: center 320px;
+    background-position: center 450px;
     background-repeat: no-repeat;
     background-size: contain;
-}
-
+}@media (max-width: 1199px){
+    .productos {
+        background-image: url(/img/Vector-27-27.svg);
+        background-position: center 290px;
+        transition: .3s ease;
+    }
+} @media (max-width: 1131px){
+    .productos {
+        background-image: url(/img/Vector-27-27.svg);
+        background-position: center 320px;
+        transition: .3s ease;
+    }
+} 
+@media (max-width: 991px){
+    .productos {
+        background-image: url(/img/Vector-27-27.svg);
+        background-position: center 320px;
+        transition: .3s ease;
+    }
+} 
 .globo {
     z-index: 1;
     position: absolute;
